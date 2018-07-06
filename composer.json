@@ -1,0 +1,23 @@
+{
+    "name": "cluwong/yii2-lazy",
+    "description": "Lazy load wrapper.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","lazy"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Carolyn Wong",
+            "email": "carolynluwong@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "bower-asset/jquery-lazy": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "cluwong\\lazy\\": ""
+        }
+    }
+}
